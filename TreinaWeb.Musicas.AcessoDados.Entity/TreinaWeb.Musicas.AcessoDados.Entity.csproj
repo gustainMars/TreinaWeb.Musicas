@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TreinaWeb.Comum.Entity\TreinaWeb.Comum.Entity.csproj" />
     <ProjectReference Include="..\TreinaWeb.Musicas.Dominio\TreinaWeb.Musicas.Dominio.csproj" />
   </ItemGroup>
 
