@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Musicas.Web", "TreinaWeb.Musicas.Web\TreinaWeb.Musicas.Web.csproj", "{081A9A10-62D6-4C6B-8006-1D067A1EB3AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinaWeb.Musicas.Web", "TreinaWeb.Musicas.Web\TreinaWeb.Musicas.Web.csproj", "{081A9A10-62D6-4C6B-8006-1D067A1EB3AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{8FEA8B02-CA21-4602-B55C-350ACB9DAA53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Musicas.Dominio", "TreinaWeb.Musicas.Dominio\TreinaWeb.Musicas.Dominio.csproj", "{4BDC80D1-B3F0-484E-A23E-A790CF93D929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinaWeb.Musicas.Dominio", "TreinaWeb.Musicas.Dominio\TreinaWeb.Musicas.Dominio.csproj", "{4BDC80D1-B3F0-484E-A23E-A790CF93D929}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AcessoDados", "AcessoDados", "{6F5F4001-5A47-412F-B087-6F65C25B55AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Musicas.AcessoDados.Entity", "TreinaWeb.Musicas.AcessoDados.Entity\TreinaWeb.Musicas.AcessoDados.Entity.csproj", "{EB8089CA-81CF-4CF4-ACC0-1C78428E8A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinaWeb.Musicas.AcessoDados.Entity", "TreinaWeb.Musicas.AcessoDados.Entity\TreinaWeb.Musicas.AcessoDados.Entity.csproj", "{EB8089CA-81CF-4CF4-ACC0-1C78428E8A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Comum.Entity", "TreinaWeb.Comum.Entity\TreinaWeb.Comum.Entity.csproj", "{B0468D27-8594-4592-814D-6C022813E14B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{EB8089CA-81CF-4CF4-ACC0-1C78428E8A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB8089CA-81CF-4CF4-ACC0-1C78428E8A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB8089CA-81CF-4CF4-ACC0-1C78428E8A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0468D27-8594-4592-814D-6C022813E14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0468D27-8594-4592-814D-6C022813E14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0468D27-8594-4592-814D-6C022813E14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0468D27-8594-4592-814D-6C022813E14B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4BDC80D1-B3F0-484E-A23E-A790CF93D929} = {8FEA8B02-CA21-4602-B55C-350ACB9DAA53}
 		{EB8089CA-81CF-4CF4-ACC0-1C78428E8A75} = {6F5F4001-5A47-412F-B087-6F65C25B55AC}
+		{B0468D27-8594-4592-814D-6C022813E14B} = {6F5F4001-5A47-412F-B087-6F65C25B55AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D85718B-BBD6-47FB-ABEB-BA2975982EA4}
